@@ -1,0 +1,13 @@
+div.pic {
+    width: 100%-75px;
+    margin-left: 75px;
+}
+
+div.exp{
+    border-style: solid;
+    border-color: #4452ff;
+    border-width: 5px;
+    margin-left: 75px;
+    font-family: 標楷體; 
+    font-size: 25px;
+}

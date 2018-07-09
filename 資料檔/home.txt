@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url(149810086334984.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        div.body {
+            margin: 5% 10% 10% 10%;
+        }
+
+        ul.nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: rgba(127, 179, 217, 0.6);
+            //position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+        
+        li.nav {
+            text-align: center;
+        }
+        
+        li.nav a {
+            display: block;
+            color: #000000;
+            font-family: 微軟正黑體 Light;
+            font-size: 23px;
+            font-weight: bold;
+            padding: 20px;
+            text-decoration: none;
+        }
+        
+        li.nav a.active {
+            background-color: #5e70f7;
+            color: #ffffff;
+        }
+        
+        li.nav a:hover:not(.active) {
+            background-color: #888888;
+            color: #ffffff;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .column_nav {
+            float: left;
+            width: 20%;
+            padding: 0px;
+        }
+        
+        .column_para {
+            float: left;
+            width: 80%;
+            padding: 0px;
+        }
+
+        b.stan {
+            margin: 0px 0px 0px 75px;
+            font-family: 標楷體;
+        }
+        
+        p.stan {
+            margin: 0px 0px 0px 75px;
+            font-family: 標楷體;
+        }
+     
+        a.fb:visited {
+            color: rgb(0, 0, 0);     
+        }
+        
+        a.fb:hover {
+            color: rgb(0, 0, 255);
+            text-decoration: none;
+        }
+        
+        b.fb {
+            margin-left: 100px;
+            font-family: 標楷體;
+            padding: 15px 20px;
+            font-size: 30px;
+            border-style: solid;
+            border-color: rgb(13, 87, 142);
+            background: rgba(127, 179, 217, 0.6);
+            border-width: 2px;
+            border-radius: 6px;
+        }
+     
+        ul.intro {
+            //border-top-style: solid;
+            //border-bottom-style: solid;
+            //border-color: rgb(13, 87, 142);
+            //background: rgba(127, 179, 217, 0.6);
+            //border-width: 4px;
+            //border-radius: 6px;
+            //width: 100%;
+            //margin-left: 75px;
+        }
+        
+        li.intro {
+            //margin-left: 10px;
+        }
+
+        div.intro-text{
+            //border-top-style: solid;
+            //border-bottom-style: solid;
+            //border-color: rgb(13, 87, 142);
+            //border-width: 4px;
+            //background: rgba(127, 179, 217, 0.6);
+            width: 100% - 75px;
+            margin-left: 75px;
+            //padding: 25px;
+            font-family: 標楷體; 
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+<div class = "body">
+    <div class = "row">
+        <div class = "column_nav">
+            <a href= "home.html">
+                <img src = "profile picture.jpg" alt = "My profile picture." style = "width: 100%; height: 260px;">
+            </a>
+            <pre style = "font-family: 微軟正黑體 Light; font-size: 30px;"> <b> 張傳佳<br>  (Chestnut Jhang)</b> </pre>
+            <!--<pre style = "font-family: Times New Roman; font-size: 25px;">       (Chestnut Jhang)</pre>-->
+            <ul class = "nav">
+                <li class = "nav"><a href = "learning-stage/learning-stage.html"> 學習歷程 </a></li>
+                <li class = "nav"><a href = ""> 比賽經歷 </a></li>
+                <li class = "nav"><a href = ""> 星中會 </a></li>
+                <li class = "nav"><a href = "learning-service/learning-service.html"> 服務學習 </a></li>
+                <li class = "nav"><a href = ""> 閱讀小品 </a></li>
+                <li class = "nav"><a href = ""> 心情札記 </a></li>
+                <li class = "nav"><a href = ""> 美食之旅 </a></li>
+                <li class = "nav"><a href = ""> 旅行紀錄 </a></li>
+            </ul>
+        </div>
+<!------------------------------------------------------------------------------------------------------------------------->
+        <div class = "column_para">
+            <h1 style = "margin: 0px 0px 0px 75px; font-family: 標楷體; font-size: 35px;">
+                <img src = "Image_7f3b2e4.jpg" alt = "Topic profile picture." 
+                    style = "float: right; width: 450px; height: 581px">
+                張傳佳 <br> (Chestnut Jhang)
+            </h1>
+            <br>
+            <p> <b class = "stan" style = "font-size: 25px;"> 沒有人一覺醒來就紅的。－by 憲哥 <br> </b> <p>
+            <p class = "stan" style = "font-size: 23px;"> 現在所做的努力，都將在未來開花結果。<br> </p>
+            <p class = "stan" style = "font-size: 23px;"> 即使不是天才，也要以努力勝過天才!!<br> </p>
+            <br> <br> <br>
+            <a class = "fb" href = "https://www.facebook.com/profile.php?id=100000340245103" 
+               style = "text-decoration: none;" target = "_blank"><b class = "fb"> 我的Facebook</b></a>
+            <br> <br>
+            <div class = "intro-text">
+                <h2> 自我簡介 </h2>
+                <ul style = "margin-left: -10px;">
+                    <li> <p style = "font-family: 標楷體; font-size: 25px;"> 國立清華大學 電機工程學系20級 </p> </li>
+                    <li> <p style = "font-family: 標楷體; font-size: 25px;"> 國立清華大學學生會 活動部部員 </p> </li>
+                    <li> <p style = "font-family: 標楷體; font-size: 25px;"> 天文知識推廣教育 服務學習助教 </p> </li>
+                </ul>
+                <h2> 我的故事 </h2>
+                <p> 經過小學六年的徬徨生活後，我的興趣開始漸漸被發掘出來。國中時，我愛上了機器人，高中時，我被美麗的星空所吸引，進入大學後，我希望我能在這些興趣上繼續往前發展，因此我就讀電機系，成為天文知識推廣教育的服務學習助教，也因為服務學習這們社會必修課，讓我對於服務社會有著強烈的使命感，同時我也學習到許多不一樣的經驗與體會；由於在大學，我能運用的時間變得很有彈性，因此我也把握機會，將美食與旅遊填滿我的空閒時間，在每一次的旅行中，我獲得許多不同的感動與回憶，不僅讓我增廣見聞，也讓我能時時回味品嘗。<br>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+        
+        
+        
+        
+        
+        
+        
+        
+        

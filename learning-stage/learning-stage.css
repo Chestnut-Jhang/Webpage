@@ -1,0 +1,15 @@
+th {
+    border: none;
+    padding: 0px 40px;
+}
+
+div.exp {
+    border-style: outset;
+    border-color: #d6ac88;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: #bf8d62;
+    width: 100% - 75px;
+    margin-left: 75px;
+    font-family: 標楷體;
+}
